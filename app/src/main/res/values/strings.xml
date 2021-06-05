@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practice App</string>
+    <string name="something_nice">Something Nice</string>
+    <string name="to_describe_about_practising_with_android_studio">to describe about practising with android studio</string>
+    <string name="click_me1">Click me1</string>
+    <string name="click_me2">click_me2</string>
+</resources>
