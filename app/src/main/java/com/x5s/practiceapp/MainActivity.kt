@@ -9,13 +9,21 @@ import android.widget.Toast
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.main_menu)
 
         // Your code goes here
         Toast.makeText(this, "Can you see me?",
         Toast.LENGTH_SHORT).show()
 
         Log.i("info", "Done creating the app")
+    }
+
+    fun loadConstraintLayout(v: View) {
+        setContentView(R.layout.activity_main)
+    }
+
+    fun loadTableLayout(v: View) {
+        //setContentView(R.layout.my_table_layout)
     }
 
     fun topClick(view: View) {
